@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.type-test-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  align-self: center;
+}
+
+h3 {
+  align-self: center;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+  width: 450px;
+  font-size: 1.5rem;
+  background-color: green;
+  color: #fff;
+}
+
+button {
+  align-self: center;
+  cursor: pointer;
+  background-color: green;
+  border: none;
+  padding: 0.5em 1.25em;
+  color: white;
+}
+
+textarea:disabled {
+  background-color: grey;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
